@@ -15,7 +15,7 @@ graph = GraphRenderer()
 
 graph.node_renderer.data_source.add(node_indices, 'index')
 graph.node_renderer.data_source.add(Spectral8, 'color')
-graph.node_renderer.glyph = Oval(height=0.1, width=0.2, fill_color='color')
+graph.node_renderer.glyph = Oval(height=0.8, width=0.6, fill_color='color')
 
 graph.edge_renderer.data_source.data = dict(
     start=[0]*N,
